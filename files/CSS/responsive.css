@@ -379,6 +379,7 @@
     .selling-point-wrapper {
         grid-template-columns: 1fr;
         text-align: left;
+        margin-top: 30px;
     }
 
     .hire-box-1 {
