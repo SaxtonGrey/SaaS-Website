@@ -1,4 +1,4 @@
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1022px) {
     [aria-controls="navbarDropdown"] {
         display: block;
     }
@@ -114,6 +114,14 @@
         align-items: center;
     }
 
+    .link::after {
+        top: -76px;
+    }
+
+    .link:nth-child(3)::after {
+        top: -60px;
+    }
+
     .big-picture i {
         bottom: 150px;
     }
@@ -185,15 +193,36 @@
         margin-bottom: 10px;
     }
 
+    .hiring-form {
+        width: 85vw;
+    }
+
+    .marketing-box {
+        margin: 20px auto;
+    }
+
+    #comments {
+        width: 95%;
+    }
+
+    .privacy-link-wrapper {
+        flex-direction: column;
+    }
+
     .ftr-box-wrapper {
         flex-wrap: wrap;
         max-width: 410px;
     }
 
+    #get-started {
+        width: 200px;
+        padding: 30px;
+        font-size: 18px;
+    }
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     #topNav {
         padding: 10px;
     }
@@ -236,6 +265,8 @@
 
     .demo-logo-box {
         width: 100%;
+        overflow-x: hidden;
+        padding: 10px 10px;
     }
 
     .floating-logo img {

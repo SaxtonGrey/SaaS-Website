@@ -372,24 +372,18 @@ button.demo-vid {
 }
 
 .test-profile-wrapper {
-    background-image: url(../../assets/abstract/dots.svg);
+    background-image: url(../assets/abstract/dots.svg);
     background-position: top 100px right 271px;
     padding: 0 0 100px 70px;
     background-repeat: no-repeat;
     background-size: 274px 408px;
+    background-position-x: inherit;
 }
 
 .test-profile-wrapper img {
     width: 400px;
 }
 
-#bg-dots {
-    position: absolute;
-    left: 181px;
-    height: 400px;
-    top: 3368.78px;
-    z-index: -1;
-}
 
 .test-review-wrapper {
     flex-direction: column;
